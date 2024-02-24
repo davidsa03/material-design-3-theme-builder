@@ -1,0 +1,19 @@
+{
+  "name": "material-design-3-theme-builder",
+  "type": "module",
+  "version": "1.0.0",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major"
+  },
+  "dependencies": {
+    "@material/material-color-utilities": "0.2.7"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0",
+    "typescript": "^5.3.3"
+  }
+}
