@@ -1,5 +1,9 @@
 {
   "name": "material-design-3-theme-builder",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": "https://github.com/davidsa03/material-design-3-theme-builder.git",
   "type": "module",
   "version": "1.0.0",
   "files": ["dist"],
