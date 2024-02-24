@@ -31,7 +31,7 @@ jobs:
 
       - name: .NPMRC
         run: |
-          echo "@username:registry=https://npm.pkg.github.com" >> .npmrc
+          echo "@davidsa03:registry=https://npm.pkg.github.com" >> .npmrc
           echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc
       - name: Publish to npm and Version
         run: |
