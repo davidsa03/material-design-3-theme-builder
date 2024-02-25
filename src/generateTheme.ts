@@ -242,28 +242,3 @@ export function generateTheme({
     darkScheme,
   };
 }
-
-async function run() {
-  /**
-   * The color keys are the keys that will be used to reference the colors in the theme.
-   * The values are the hex values of the colors.
-   */
-  const colorKeys = {
-    primary: '#007680',
-    secondary: '#000000',
-    tertiary: '#80CDFA',
-    error: '#DA291C',
-    neutral: '#DDDDDD',
-    neutralVariant: '#DDDDDD',
-  };
-
-  /**
-   * This will generate the theme object that can be used to style the application.
-   * The theme object will contain the color scheme for both light and dark mode.
-   */
-  const theme = generateTheme(colorKeys);
-
-  console.log(theme);
-}
-
-run();
