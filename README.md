@@ -7,10 +7,10 @@ The color palettes and schemes are built using the color utilities from here [Ma
 This tool will generate a color palette, light theme, and dark theme for your application.
 
 ## Getting Started
-`npm i material-design-3-theme-builder`
+`npm i @davidsa03/material-design-3-theme-builder`
 
 ```typescript
-import { generateTheme } from 'material-design-3-theme-builder';
+import { generateTheme } from '@davidsa03/material-design-3-theme-builder';
 
 /**
  * The color keys are the keys that will be used to reference the colors in the theme.
