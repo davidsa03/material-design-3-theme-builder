@@ -5,7 +5,7 @@
   },
   "repository": "https://github.com/davidsa03/material-design-3-theme-builder.git",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": ["dist"],
   "scripts": {
     "build": "tsc",
